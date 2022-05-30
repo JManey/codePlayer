@@ -48,3 +48,19 @@ body {
 .highlightedBtn {
   background-color: rgb(91, 220, 220);
 }
+
+textarea {
+  width: 50%;
+  resize: none;
+  border-top: none;
+  border-color: gray;
+}
+
+.panel {
+  float: left;
+  width: 50%;
+}
+
+iframe {
+  border: none;
+}
