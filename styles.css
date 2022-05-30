@@ -7,7 +7,7 @@ body {
 #header {
   width: 100%;
   height: 30px;
-  background-color: darkslategray;
+  background-color: rgb(88, 149, 149);
   padding: 6px;
 }
 
@@ -25,7 +25,7 @@ body {
 
 .toggleButton {
   float: left;
-  border: 1px solid grey;
+  border: 1px solid rgb(105, 102, 102);
 
   padding: 5px;
   border-right: none;
@@ -39,4 +39,12 @@ body {
 #output {
   border-bottom-right-radius: 6px;
   border-top-right-radius: 6px;
+}
+
+.active {
+  background-color: dodgerblue;
+}
+
+.highlightedBtn {
+  background-color: rgb(91, 220, 220);
 }
