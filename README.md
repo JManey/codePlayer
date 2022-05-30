@@ -1,5 +1,9 @@
 # codePlayer
 
-project to get started using jquery
+This project is a basic clone of [jspen.com](jspen.com). The main goal is to start using jquery.
 
-basic clone of codepen like interface
+initial state:
+![Screenshot](initial.png)
+
+testing it out:
+![Screenshot](modified.png)
