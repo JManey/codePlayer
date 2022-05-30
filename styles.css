@@ -55,8 +55,12 @@ textarea {
   border-color: gray;
 }
 
+#bodyContainer {
+  display: flex;
+}
+
 .panel {
-  float: left;
+  margin: 2px;
   width: 50%;
   border-left: none;
 }
