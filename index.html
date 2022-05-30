@@ -32,7 +32,9 @@
     </div>
 
     <div id="bodyContainer">
-      <textarea name="htmlPanel" id="htmlPanel" class="panel"></textarea>
+      <textarea name="htmlPanel" id="htmlPanel" class="panel">
+<p id="para">Testing output</p></textarea
+      >
       <textarea name="cssPanel" id="cssPanel" class="panel hidden">
         p {color: green;}</textarea
       >
@@ -40,7 +42,9 @@
         name="javascriptPanel"
         id="javascriptPanel"
         class="panel hidden"
-      ></textarea>
+      >
+document.getElementById("para").innerHTML = "js is working"</textarea
+      >
 
       <iframe id="outputPanel" class="panel"></iframe>
     </div>

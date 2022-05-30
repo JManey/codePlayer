@@ -1,3 +1,5 @@
+// hover handler
+
 $(".toggleButton").hover(
   function () {
     $(this).addClass("highlightedBtn");
@@ -6,6 +8,8 @@ $(".toggleButton").hover(
     $(this).removeClass("highlightedBtn");
   }
 );
+
+// click handler
 
 $(".toggleButton").click(function () {
   $(this).toggleClass("active");
@@ -19,12 +23,11 @@ $(".toggleButton").click(function () {
   $(".panel").width($(window).width() / numberActivePanels) - 10;
 });
 
-$(".panel").height($(window).height() - $("#header").height() * 2);
+// updates display on page load and initial sizing
 
-$(".panel").width($(window).width() / 2) - 10;
-
-// updates display on page load
 updateOutput();
+$(".panel").height($(window).height() - $("#header").height() * 2);
+$(".panel").width($(window).width() / 2) - 10;
 
 //updtes output when textarea changes
 $("textarea").on("change keyup paste", function () {
@@ -44,4 +47,9 @@ function updateOutput() {
         $("#htmlPanel").val() +
         "</body></html>"
     );
+
+  // add in user javascript
+  document
+    .getElementById("outputPanel")
+    .contentWindow.eval($("#javascriptPanel").val());
 }
