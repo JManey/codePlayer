@@ -50,7 +50,6 @@ body {
 }
 
 textarea {
-  width: 50%;
   resize: none;
   border-top: none;
   border-color: gray;
@@ -59,8 +58,13 @@ textarea {
 .panel {
   float: left;
   width: 50%;
+  border-left: none;
 }
 
 iframe {
   border: none;
+}
+
+.hidden {
+  display: none;
 }

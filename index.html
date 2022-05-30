@@ -27,12 +27,18 @@
         <div class="toggleButton active" id="html">HTML</div>
         <div class="toggleButton" id="css">CSS</div>
         <div class="toggleButton" id="javascript">JavaScript</div>
-        <div class="toggleButton" id="output">Output</div>
+        <div class="toggleButton active" id="output">Output</div>
       </div>
     </div>
 
     <div id="bodyContainer">
-      <textarea name="" id="htmlPanel" class="panel">HTML Editor</textarea>
+      <textarea name="htmlPanel" id="htmlPanel" class="panel"></textarea>
+      <textarea name="cssPanel" id="cssPanel" class="panel hidden"></textarea>
+      <textarea
+        name="javascriptPanel"
+        id="javascriptPanel"
+        class="panel hidden"
+      ></textarea>
 
       <iframe id="outputPanel" class="panel"></iframe>
     </div>
