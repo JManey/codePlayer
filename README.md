@@ -1,6 +1,6 @@
 # codePlayer
 
-This project is a basic clone of [jspen.com](https://jspen.com). The main goal is to start using jquery.
+Project to create a site similiar to jsfiddle. The goal was to start using jquery.
 
 Try it out [here](https://tubular-puffpuff-658fa5.netlify.app/).
 
